@@ -1,0 +1,24 @@
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* CSS VARIABLE */
+:root {
+  --blue-color: #3da4ab;
+  --blue-dark: #1ce3f5;
+  --orange: #f6cd61;
+  --red: #fe8a71;
+  --title-color: #141313;
+  --text-color: #777777;
+  --border-color: #201f1f17;
+  --gradient-color: linear-gradient(90deg, #0e9aa7 100%, #3da4ab 0%);
+  --shadow-color: 0px 10px 30px rgba(118, 85,225, 0.3);
+  --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  --gradient-hover: linear-gradient(90deg, #fe8a71 0%, #f6cd61 100%);
+
+  --roboto: 'Roboto', sans-serif;
+}

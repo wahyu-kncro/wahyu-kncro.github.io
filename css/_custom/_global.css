@@ -1,0 +1,34 @@
+.title-text {
+    font: normal 500 50px/72px var(--roboto);
+}
+
+.button {
+    font: normal 500 16px/20px var(--roboto);
+    position: relative;
+    border-radius: 5px;
+}
+
+.button.button-primary {
+    background: var(--gradient-color);
+    transition: .6s ease;
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+
+.button.button-primary:hover {
+    background: var(--gradient-hover);
+    color: black;
+}
+
+
+.button.button-secondary {
+    background: var(--gradient-hover);
+    transition: .6s ease;
+    color: black;
+    box-shadow: var(--box-shadow);
+}
+
+.button.button-secondary:hover {
+    background: var(--gradient-color);
+    color: whitesmoke;
+}
