@@ -1,15 +1,19 @@
-/*import*/
-@import url(./font.css);
-@import url(./_custom/_variables.css);
-@import url(./_custom/_global.css);
+/*Import*/
+@import url('./custom/global.css');
+@import url('./font.css');
+@import url('./custom/variables.css');
 
 /*Navigation header*/
+.header-area {
+  box-shadow: 2px -7px 15px rgba(80, 92, 51, 0.17);
+}
+
 .header-area .main-menu .navbar .navbar-brand {
 	padding: 0 2rem 0 5rem;
 }
 
-.header-area .main-menu .navbar {
-	padding: 1rem 15rem;
+.header-area .main-menu .navbar .header-logo {
+  width: 85px;
 }
 
 .header-area .main-menu .navbar-nav .nav-item .nav-link {
@@ -34,7 +38,7 @@
 
 /* Banner area */
 .site-main .site-banner .site-title h3 {
-  padding-top: 25%;
+  padding-top: 20%;
   font-weight: 500;
 }
 
@@ -47,6 +51,83 @@
 }
 
 .site-main .site-banner .banner-image > img {
-  padding: 7rem 0;
+  padding: 3rem 0;
   width: 90rem;
+}
+
+/* About Area */
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area img {
+  width: 40rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+  display: block;
+  font: normal bold 39px/ 40px var(--roboto);
+  letter-spacing: 21px;
+}
+
+/* Skill Area */
+.site-main .skill-area {
+  padding: 2rem 10rem;
+  margin-bottom: 4rem;
+}
+
+.site-main .skill-area .single-brand img {
+  width: 50%;
+}
+
+.site-main .skill-area .single-brand {
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: .9rem 0;
+  width: 200px;
+  height: 150px;
+  cursor: pointer;
+  transition: transform .4s ease;
+}
+
+.site-main .skill-area .single-brand img {
+  opacity: .4;
+}
+
+.site-main .skill-area .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+.site-main .skill-area .single-brand:hover > img {
+  opacity: 1;
+}
+
+
+.site-main .skill-area .skill-title {
+  display: block;
+  font: normal bold 39px/ 40px var(--roboto);
+  letter-spacing: 21px;
+}
+
+
+
+footer.footer-area .site-logo img {
+  margin-top: 5rem;
+  width: 85px;
+}
+
+footer.footer-area .social h5{
+  font: normal 500 20px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+  font-size:22px;
+  padding: 2rem;
+  color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+  color: var(--blue-color);
 }

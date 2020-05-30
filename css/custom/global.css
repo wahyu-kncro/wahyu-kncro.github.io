@@ -16,19 +16,32 @@
 }
 
 .button.button-primary:hover {
-    background: var(--gradient-hover);
+    background: whitesmoke;
+    border: 1px solid;
     color: black;
+    border-color: var(--blue-color);
 }
 
 
 .button.button-secondary {
-    background: var(--gradient-hover);
     transition: .6s ease;
-    color: black;
+    border: 1px solid;
+    border-color: var(--red);
     box-shadow: var(--box-shadow);
 }
 
 .button.button-secondary:hover {
-    background: var(--gradient-color);
+    background: var(--gradient-hover);
     color: whitesmoke;
+}
+
+.navbar-fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: 1s ease;
 }
